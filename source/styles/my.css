@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css?family=Michroma&display=swap');
+
+body {
+    font-family: Michroma, serif;
+    background: linear-gradient(90deg, #0000f8 0%, #000000 100%);
+    color: aquamarine;
+}
+
+a {
+    text-decoration: none;
+}
+
+/*  */
+.nabar-brand>img {
+    width: 20pxpx;
+}
+
+.nav-link {
+    color: aquamarine;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: rgb(126, 126, 126)
+}
+
+.navbar-toggler {
+    background-color: rgb(126, 126, 126);
+
+}
+/* header */
+
+.slide-text {
+    margin: auto auto;
+}
+
+.sidebar {
+    background: radial-gradient(#0008ff 0%, #000000 100%);
+    border: 1.5px solid aquamarine;
+    border-radius: 10%;
+    margin: 0.5em;
+    padding: 0.5em
+}
+
+.nav-bottom>a {
+    color: aquamarine;
+}
+
+footer,
+.btn-outline-primary {
+    background: radial-gradient(#000000 0%, #0008ff 100%);
+    border-top: 1px solid aquamarine;
+
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: radial-gradient(#000000 0%, #0008ff 100%);
+    border: 0.5px solid white;
+}
+
+.card a {
+    text-decoration: none;
+    color: aquamarine;
+
+}
+/* pricing.html */
+.call-anim {
+    animation: myAnim 2s ease 5s infinite normal forwards;
+}
+
+@keyframes myAnim {
+	0%,
+	100% {
+		transform: rotate(0deg);
+		transform-origin: 50% 100%;
+	}
+
+	10% {
+		transform: rotate(2deg);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: rotate(-4deg);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: rotate(4deg);
+	}
+
+	80% {
+		transform: rotate(-2deg);
+	}
+
+	90% {
+		transform: rotate(2deg);
+	}
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
